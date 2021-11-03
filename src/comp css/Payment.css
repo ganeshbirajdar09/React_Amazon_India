@@ -1,0 +1,50 @@
+.payment {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  background-color: #ffffff;
+}
+.payment-container {
+  margin-top: 26px;
+  width: 100%;
+}
+.payment-container > h1 {
+  text-align: center;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+.payment-section {
+  display: flex;
+  padding: 17px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment-title {
+  flex: 0.2;
+}
+.payment-address,
+.payment-items {
+  flex: 0.8 1;
+  margin-left: inherit;
+}
+.final-btn {
+  background-color: #f7cd2e;
+  border: 1px solid;
+  border-radius: 8px;
+  width: 9%;
+  height: 30px;
+  margin-top: 10px;
+  border-color: rgb(204, 169, 99);
+  border-color: transparent;
+  color: #131921;
+}
+.payment-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.confirmed img {
+  max-height: 200px;
+  width: 15%;
+  object-fit: contain;
+}

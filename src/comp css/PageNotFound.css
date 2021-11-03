@@ -1,0 +1,22 @@
+.error-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+.error-img img {
+  margin-top: 0;
+}
+.error-msg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.error-msg > h3 {
+  color: #f08e30;
+}
+.redirect-home > h3 {
+  margin-top: 30px;
+  columns: #75c2ff;
+  text-decoration-color: #75c2ff;
+}

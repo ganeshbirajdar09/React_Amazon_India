@@ -1,0 +1,99 @@
+.billing {
+  display: flex;
+  padding: 20px;
+
+  background-color: #eaeded;
+
+  height: max-content;
+  justify-content: space-between;
+  margin-top: 0;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+.billing-cart {
+  background-color: #ffffff;
+  width: -webkit-fill-available;
+}
+.billing-msg {
+  padding: 10px;
+
+  background-color: #eaeded;
+  background-color: #ffffff;
+}
+.billing-subtotal {
+  float: right;
+}
+.msg {
+  display: flex;
+}
+.msg > h2 {
+  display: flex;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffff;
+  overflow: auto;
+  padding: 20px 0 15px 0;
+}
+.basket-png {
+  width: 138px;
+}
+.deals {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  justify-content: center;
+}
+.deals > h2 {
+  font-weight: 700;
+}
+.today {
+  text-decoration: none;
+  color: #007185;
+  margin-bottom: 22px;
+}
+.empty {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  overflow: auto;
+  padding: 20px 0 15px 0;
+}
+.warning-1 {
+  font-size: 12px;
+}
+.warning-2 {
+  font-size: 12px;
+}
+.btns {
+  display: flex;
+  justify-content: flex-start;
+}
+.btns button {
+  font-size: 13px;
+  color: #0f1111;
+  border: 0;
+  display: block;
+  font-size: 13px;
+  line-height: 29px;
+  margin: 0;
+  outline: 0;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+.signup-now button {
+  margin-left: 10px;
+}
+.signup-now:hover {
+  background-color: rgb(250, 239, 239);
+}
+.signin-now {
+  background-color: #f7cd2e;
+}
+.signin-now:hover {
+  background-color: rgb(241, 203, 77);
+}

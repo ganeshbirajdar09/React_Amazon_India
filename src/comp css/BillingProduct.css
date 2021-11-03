@@ -1,0 +1,32 @@
+.finalProducts {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+.finalProduct-image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+.finalProduct-info {
+  padding-left: 20px;
+  color: #007185;
+}
+.finalProduct-info > button {
+  background-color: rgb(245, 206, 79);
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: rgb(245, 206, 79) rgb(245, 206, 79) rgb(245, 206, 79)
+    rgb(245, 206, 79);
+  color: #131921;
+  width: 60px;
+  border-radius: 18px;
+}
+.finalProduct-rating {
+  display: flex;
+}
+.finalProduct-title {
+  font-size: 17px;
+  font-weight: 800;
+}
